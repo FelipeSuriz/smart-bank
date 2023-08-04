@@ -21,6 +21,10 @@ export const Icone = styled.img`
     width: 25px;  
 `;
 
+export const IconeTema = styled(Icone)`
+    filter: ${({theme}) => theme.filter};
+`;
+
 export const Saldo = styled.div`
     font-weight: 700;
     font-size: 32px;
